@@ -2,7 +2,7 @@ import pandas as pd
 
 def fetch_data():
     return pd.DataFrame({
-        'sample': ['A', 'B', 'C', 'A', 'B', 'C'],
+        'category': ['A', 'B', 'C', 'A', 'B', 'C'],
         'value': [10, 20, 30, 40, 50, 60]
     })
 
